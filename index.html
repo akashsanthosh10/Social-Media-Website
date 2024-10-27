@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Social Media Network</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="homeMenu">Home</a></li>
+                <li><a href="#" id="profileMenu">Profile</a></li>
+                <li><a href="#" id="friendsMenu">Friends</a></li>
+                <li><a href="#" id="notificationsMenu">Notifications</a></li>
+                <li><a href="#" id="logoutButton">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="feed">
+            <h2>Feed</h2>
+            <button id="addPostButton" class="add-post-button">Add Post</button>
+            
+            <div id="postContainer"></div> <!-- Existing posts will be displayed here -->
+            
+            <!-- Form to add a new post -->
+            <div id="addPostForm" style="display: none;">
+                <textarea id="postContent" rows="4" placeholder="What's on your mind?" required></textarea>
+                <button id="submitPostButton">Submit</button>
+                <button id="cancelPostButton">Cancel</button>
+            </div>
+            
+            <!-- Existing posts will be dynamically displayed here -->
+        </section>
+        
+       
+        
+
+        <section id="profile">
+            <h2>Profile</h2>
+            <div class="profile-container" id="profileContainer">
+                <!-- Profile data will be dynamically injected here -->
+            </div>
+            <div id="editDialog" class="dialog">
+                <div class="dialog-content">
+                    <span class="close-button" onclick="closeEditDialog()">&times;</span>
+                    <h3>Edit Profile</h3>
+                    <form method="post" action="edit.php">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" >
+                        <label for="bio">Bio:</label>
+                        <textarea id="bio" name="bio"></textarea>
+                        <!--<label for="email">Email:</label>
+                        <input type="email" id="email" name="email" value="alice@example.com">-->
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" >
+                        <label for="website">Website:</label>
+                        <input type="text" id="website" name="website" >
+                        <button type="submit">Save Changes</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section id="friends">
+            <h2>Friends</h2>
+            <ul id="friendsList">
+                <!-- List items will be populated dynamically -->
+            </ul>
+        </section>
+        
+        
+        
+        
+        
+
+        <!-- Notifications Section -->
+        <section id="notifications">
+            <h2>Notifications</h2>
+            <ul id="notificationsList">
+                <!-- Dynamic notifications will be populated here by JavaScript -->
+            </ul>
+        </section>
+        
+        
+    </main>
+
+    <footer>
+        <p>© 2024 Your Social Media App</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
