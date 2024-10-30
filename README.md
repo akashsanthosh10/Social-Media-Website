@@ -27,8 +27,17 @@ A simple social media network web application where users can register, log in, 
 
 ### Installation
 
+
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/social-media-network.git
    cd social-media-network
 ### Screenshots
+
+![7](https://github.com/user-attachments/assets/314e36ac-c435-4d1c-8a65-cf794c4bb79d)
+![6](https://github.com/user-attachments/assets/55cb1b1c-2152-4fe3-93c7-4a257f4fac77)
+![5](https://github.com/user-attachments/assets/5c2db01d-ff58-451b-8403-63752cc4670c)
+![4](https://github.com/user-attachments/assets/f66d6f2b-2db5-4795-8a76-600fbb5d1ab7)
+![3](https://github.com/user-attachments/assets/77f1395c-78bc-4688-93e5-3ded103fecaa)
+![2](https://github.com/user-attachments/assets/1f191af0-b139-41b8-bd9d-480cf8d4f7c3)
+![1](https://github.com/user-attachments/assets/f2961130-55b5-4d3a-aac2-76a350c9830a)
