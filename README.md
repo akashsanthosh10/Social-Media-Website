@@ -31,3 +31,4 @@ A simple social media network web application where users can register, log in, 
    ```bash
    git clone https://github.com/your-username/social-media-network.git
    cd social-media-network
+### Screenshots
